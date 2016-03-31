@@ -1,0 +1,132 @@
+＊ {
+    padding: 0;
+    margin:0;
+}
+html,body{
+    background-color:#c3bebe;
+    font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+	font-size: 16px;
+    line-height:150%
+}
+ol li{
+        list-style-type:decimal;
+        list-style-position:inside;
+}
+/*ol不显示数字信号*/
+img{
+    width: 400px;
+}
+li{
+    list-style: none;
+    
+}
+
+
+textarea{
+  height: 100px;
+  width: 60%;
+  box-sizing: border-box;
+  vertical-align: text-top;
+}
+
+aside {
+	margin: 35px auto;
+	margin-top: 50px;
+	padding: 15px;
+}
+aside h3 {
+	border-left-width: 3px;
+	padding-left: 10px;
+	height: 45px;
+	line-height: 45px;
+	border-left-color: #DEDEDE;
+	border-left-style: solid;
+}
+
+
+
+article, aside {
+	background-color: #fff;
+	width: 90%;
+	box-shadow: 2px 2px 2px #828282;	
+	border: 1px solid #eee;
+}
+article h3,h4{
+    color: #aca1a1;
+}
+article {
+	margin: 25px auto;
+	padding: 15px;
+}
+article p{
+    text-indent: 2em;
+}
+article dd img {
+	width: 100px;
+	height: 100px;
+}
+
+article dd {
+	width: 120px;
+	border: 1px solid #eee;
+	text-align: center;
+}
+
+article table {
+	width: 100%;
+	text-align: left;
+    font-weight: bold;
+    border: solid #eee;
+}
+
+
+
+
+article table tr.last {
+	background-color: #eee;
+    
+}
+article table tr.first {
+	background-color: #000;
+    color: white;
+}
+
+
+
+
+
+
+.leftLabel{
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.tip{
+    display: block;
+    color: gray;
+    
+}
+
+#submit{ 
+    border:none;
+    display: block;
+    width: 100%;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    height: 35px;
+    margin-top: 20px;
+}
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 80px;
+    text-align: center;
+    line-height: 60px;
+}
